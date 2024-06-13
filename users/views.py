@@ -28,7 +28,7 @@ class CustomProviderAuthView(ProviderAuthView):
             )
             response.set_cookie(
                 'refreh',
-                refereh_token,
+                refresh_token,
                 max_age=settings.AUTH_COOKIE_ACCESS_MAX_AGE,
                 path=settings.AUTH_COOKIE_PATH,
                 secure=settings.AUTH_COOKIE_SECURE,
