@@ -1,10 +1,10 @@
 'use client'
 
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 const Setup: React.FC = () => {
-    return <ToastContainer />;
+    return <ToastContainer />
 };
 
 export default Setup;
