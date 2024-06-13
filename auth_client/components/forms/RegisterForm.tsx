@@ -47,7 +47,7 @@ export default function RegisterForm() {
         {
             labelText: 'Confirm password',
             labelId: 're_password',
-            type: 're_password',
+            type: 'password',
             value: re_password,
             required: true
         }
