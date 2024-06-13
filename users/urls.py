@@ -9,7 +9,7 @@ from .views import (
 
 urlpatterns = [
     re_path(
-        r'^o/(?<provider>\$)/$',
+        r'^o/(?P<provider>\$)/$',
         CustomProviderAuthView.as_view(),
         name='provider-auth'
     ),
